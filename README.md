@@ -6,7 +6,7 @@ A multi-screen banking front-end prototype built with React Native, demonstratin
 
 ## Screenshots
 
-### Mobile (Android | Expo Go)
+### Mobile (android/ios | Expo Go)
 
 | Account Summary | Transactions | Savings Detail |
 |:-:|:-:|:-:|
