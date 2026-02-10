@@ -10,7 +10,7 @@ A multi-screen banking front-end prototype built with React Native, demonstratin
 
 | Account Summary | Transactions | Savings Detail |
 |:-:|:-:|:-:|
-| ![Account Summary](screenshots/phone_Screenshot_1_(1).png) | ![Transactions](screenshots/phone_transactions.png) | ![Savings](screenshots/phone_savings.png) |
+| ![Account Summary](phone_Screenshot_1_(1).png) | ![Transactions](screenshots/phone_transactions.png) | ![Savings](screenshots/phone_savings.png) |
 | Dashboard with total balance and tappable account cards | Filterable transaction history with category chips | Account detail with transfer and interest history |
 
 ### 🖥️ Web (React Native Web)
