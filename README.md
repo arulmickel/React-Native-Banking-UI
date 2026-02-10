@@ -6,7 +6,7 @@ A multi-screen banking front-end prototype built with React Native, demonstratin
 
 ## Screenshots
 
-### Mobile (Android — Expo Go)
+### Mobile (Android | Expo Go)
 
 | Account Summary | Transactions | Savings Detail |
 |:-:|:-:|:-:|
@@ -26,21 +26,21 @@ A multi-screen banking front-end prototype built with React Native, demonstratin
 ## Features
 
 ### Multi-Screen Application
-- **Account Summary** — Dashboard showing total balance across all accounts with tappable account cards
-- **Transaction History** — Filterable transaction list with category chips, pull-to-refresh, and empty states
-- **Transfer Flow** — 3-step fund transfer (Form → Review → Confirmation) with real-time validation
+- **Account Summary** - Dashboard showing total balance across all accounts with tappable account cards
+- **Transaction History** - Filterable transaction list with category chips, pull-to-refresh, and empty states
+- **Transfer Flow** - 3-step fund transfer (Form → Review → Confirmation) with real-time validation
 
 ### Reusable Component Library
-- `AccountCard` — Displays account summary with type badge, balance, and APY
-- `TransactionItem` — Transaction row with category icon, amount formatting, and relative dates
-- `Button` — Primary/secondary/outline variants with loading and disabled states
-- `LoadingState` / `ErrorState` — Consistent loading and error UI with retry support
+- `AccountCard` - Displays account summary with type badge, balance, and APY
+- `TransactionItem` - Transaction row with category icon, amount formatting, and relative dates
+- `Button` - Primary/secondary/outline variants with loading and disabled states
+- `LoadingState` / `ErrorState` - Consistent loading and error UI with retry support
 
 ### Mock REST API Layer
 - Simulates real API calls with configurable network latency (300–800ms)
 - Follows REST conventions: `GET /accounts`, `GET /accounts/:id/transactions`, `POST /transfers`
 - Supports pagination, error simulation, and in-memory balance updates
-- Easy to swap with real endpoints — just replace function bodies in `bankingApi.js`
+- Easy to swap with real endpoints - just replace function bodies in `bankingApi.js`
 
 ### Unit Testing
 - **30+ test cases** covering formatters, API client, and validation logic
