@@ -1,4 +1,4 @@
-# 🏦 React Native Banking UI
+# React Native Banking UI
 
 A multi-screen banking front-end prototype built with React Native, demonstrating reusable component architecture, responsive layouts, mock REST API integration, unit testing, and Section 508/WCAG accessibility compliance.
 
@@ -10,29 +10,29 @@ A multi-screen banking front-end prototype built with React Native, demonstratin
 
 ## Features
 
-### 📱 Multi-Screen Application
+### Multi-Screen Application
 - **Account Summary** — Dashboard showing total balance across all accounts with tappable account cards
 - **Transaction History** — Filterable transaction list with category chips, pull-to-refresh, and empty states
 - **Transfer Flow** — 3-step fund transfer (Form → Review → Confirmation) with real-time validation
 
-### 🧩 Reusable Component Library
+### Reusable Component Library
 - `AccountCard` — Displays account summary with type badge, balance, and APY
 - `TransactionItem` — Transaction row with category icon, amount formatting, and relative dates
 - `Button` — Primary/secondary/outline variants with loading and disabled states
 - `LoadingState` / `ErrorState` — Consistent loading and error UI with retry support
 
-### 🔌 Mock REST API Layer
+### Mock REST API Layer
 - Simulates real API calls with configurable network latency (300–800ms)
 - Follows REST conventions: `GET /accounts`, `GET /accounts/:id/transactions`, `POST /transfers`
 - Supports pagination, error simulation, and in-memory balance updates
 - Easy to swap with real endpoints — just replace function bodies in `bankingApi.js`
 
-### ✅ Unit Testing
+### Unit Testing
 - **30+ test cases** covering formatters, API client, and validation logic
 - Tests for edge cases: null inputs, NaN, overflow, empty data, invalid IDs
 - STAR-aligned: each test documents the **Situation**, **Action**, and expected **Result**
 
-### ♿ Accessibility (Section 508 / WCAG 2.1)
+### Accessibility (Section 508 / WCAG 2.1)
 - **Semantic Labels**: Every interactive element has `accessibilityLabel` and `accessibilityRole`
 - **Focus Order**: Logical reading order; form errors use `accessibilityLiveRegion="assertive"`
 - **Contrast-Aware UI**: All text meets WCAG AA contrast ratios (minimum 4.5:1 for body text)
