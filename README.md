@@ -17,7 +17,7 @@ A multi-screen banking front-end prototype built with React Native, demonstratin
 
 <img src="screenshots/web%20Screenshot.png" width="1000" alt="Web Dashboard" />
 
-*Responsive web version rendered via `react-native-web` — same codebase, zero modifications.*
+*Responsive web version rendered via `react-native-web` - same codebase, zero modifications.*
 
 > If you still see 404 images on GitHub: make sure the screenshots are **committed & pushed** and the folder name is exactly `screenshots` (case-sensitive on GitHub).
 
